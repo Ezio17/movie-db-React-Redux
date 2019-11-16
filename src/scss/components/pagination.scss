@@ -1,0 +1,51 @@
+.pagination {
+   width: 400px;
+   margin: 30px auto;
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 0;
+   
+  li {
+     display: inline-block;
+   }
+
+   &__previous-arrow {
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+
+    a:focus {
+      outline: none;
+    }
+  }
+  
+  &__next-arrow {
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+
+    a:focus {
+      outline: none;
+    }
+  }
+
+  &__page-links {
+    cursor: pointer;
+    font-weight: 700;
+
+    &:active {
+      outline: none;
+    }
+  }
+ 
+  &__active-page {
+    color: #2b7840;
+    outline: none;
+  }
+}
+
+@media all and (max-width: 500px) {
+  .pagination {
+    width: 300px;
+  }
+}

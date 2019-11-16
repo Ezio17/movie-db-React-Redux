@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #3c423e;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+
+  &:hover {
+    color: #5dd97e;
+  }
+}
+
+:focus {
+  outline-color: green;
+}
+
+.center-mode {
+  position: relative;
+  font-size: 32px;
+  color: white;
+  text-align: center;
+}

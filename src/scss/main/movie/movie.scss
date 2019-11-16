@@ -1,0 +1,17 @@
+.movie {
+  width: 1400px;
+  margin: 110px auto 0;
+
+  &__actors-title {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    margin-top: 40px;
+  }
+}
+
+@media all and (max-width: 1430px) {
+  .movie {
+    width: 95%;
+  }
+}

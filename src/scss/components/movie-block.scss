@@ -1,0 +1,48 @@
+.movie-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  &__container {
+    margin: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 154px !important;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+  }
+  
+  h4 {
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+    overflow: hidden;
+    max-width: 150px;
+    cursor: pointer;
+
+    &:hover {
+     color: greenyellow;
+    }
+  }
+  
+  &__more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 235px;
+    width: 154px;
+    background-color: #2f7a43;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+    margin: 10px 15px;
+  }
+
+  &__image {
+    width: 154px;
+    height: 235px;
+  }
+}
