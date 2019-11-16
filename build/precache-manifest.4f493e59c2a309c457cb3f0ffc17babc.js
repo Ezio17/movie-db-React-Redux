@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "229bb2b7a0b928229081584bc20c58a5",
+    "revision": "62398eacd28ea329215b3c0e73ca7b62",
     "url": "/movie-db-React-Redux/build/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/movie-db-React-Redux/build/static/css/2.fa05ffb1.chunk.css"
   },
   {
-    "revision": "e406e01accdfb0dc287c",
+    "revision": "83e229667f19e560fbd2",
     "url": "/movie-db-React-Redux/build/static/css/main.4676ef9a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/movie-db-React-Redux/build/static/js/2.c7a7a683.chunk.js"
   },
   {
-    "revision": "e406e01accdfb0dc287c",
-    "url": "/movie-db-React-Redux/build/static/js/main.27f566b7.chunk.js"
+    "revision": "83e229667f19e560fbd2",
+    "url": "/movie-db-React-Redux/build/static/js/main.72fe928f.chunk.js"
   },
   {
     "revision": "bebd10237125423eb106",

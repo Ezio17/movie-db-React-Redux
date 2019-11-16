@@ -18,7 +18,8 @@ class ActorsContainer extends React.Component {
   }
 
   componentDidUpdate(prevProps) {
-    if (queryString.parse(prevProps.location.search).page !== queryString.parse(this.props.location.search).page) {
+    if (queryString.parse(prevProps.location.search).page !== queryString.parse(this.props.location.search).page
+      && this.props.searchValue === '') {
       this.props.getActors(queryString.parse(this.props.location.search).page);
     }
   }
