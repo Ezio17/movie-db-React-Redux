@@ -1,6 +1,6 @@
 import React from "react";
 import "./scss/index.scss";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./store/configurStore";
 
@@ -14,7 +14,7 @@ import ActorContainer from './containers/ActorContainer'
 
 function App(props) {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <Provider store={store}>
         <div id="page-warpper">
           <HeaderContainer />
@@ -34,7 +34,7 @@ function App(props) {
           <Footer />
         </div>
       </Provider>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
