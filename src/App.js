@@ -3,6 +3,7 @@ import "./scss/index.scss";
 import { HashRouter, Switch, Route } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./store/configurStore";
+import * as serviceWorker from './serviceWorker';
 
 import HeaderContainer from "./containers/HeaderContainer";
 import HomeContainer from "./containers/HomeContainer";
@@ -38,4 +39,7 @@ function App(props) {
   );
 }
 
+serviceWorker.unregister();
+
 export default App;
+
