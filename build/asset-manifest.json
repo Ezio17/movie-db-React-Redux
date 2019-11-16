@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4676ef9a.chunk.css",
+    "main.js": "/static/js/main.fbc5f40c.chunk.js",
+    "main.js.map": "/static/js/main.fbc5f40c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.37fc7c9e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.37fc7c9e.js.map",
+    "static/css/2.18585a14.chunk.css": "/static/css/2.18585a14.chunk.css",
+    "static/js/2.819efbec.chunk.js": "/static/js/2.819efbec.chunk.js",
+    "static/js/2.819efbec.chunk.js.map": "/static/js/2.819efbec.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0681597ee714ecd6e05ccc3d4dfd7b34.js": "/precache-manifest.0681597ee714ecd6e05ccc3d4dfd7b34.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.18585a14.chunk.css.map": "/static/css/2.18585a14.chunk.css.map",
+    "static/css/main.4676ef9a.chunk.css.map": "/static/css/main.4676ef9a.chunk.css.map",
+    "static/media/iconfinder_23.Videos_290127.svg": "/static/media/iconfinder_23.Videos_290127.945e9186.svg",
+    "static/media/iconfinder_icon-111-search_314478.svg": "/static/media/iconfinder_icon-111-search_314478.2086744a.svg",
+    "static/media/slick-theme.css": "/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37fc7c9e.js",
+    "static/css/2.18585a14.chunk.css",
+    "static/js/2.819efbec.chunk.js",
+    "static/css/main.4676ef9a.chunk.css",
+    "static/js/main.fbc5f40c.chunk.js"
+  ]
+}
