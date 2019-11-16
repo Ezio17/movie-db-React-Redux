@@ -15,7 +15,7 @@ import ActorContainer from './containers/ActorContainer'
 
 function App(props) {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Provider store={store}>
         <div id="page-warpper">
           <HeaderContainer />
