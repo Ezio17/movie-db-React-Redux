@@ -48,8 +48,10 @@ class MoviesContainer extends React.Component {
       })
     }
 
-    if (prevProps.location.pathname !== this.props.location.pathname) {
-      this.props.getMovies(this.props.match.params.genre, this.props.match.url.match('/\\w+/')[0]);
+    if (prevProps.location.pathname !== this.props.location.pathname ||
+      queryString.parse(prevProps.location.search).page !== queryString.parse(this.props.location.search).page) {
+
+      this.props.getMovies(this.props.match.params.genre, this.props.match.url.match('/\\w+/')[0], queryString.parse(this.props.location.search).page);
       this.props.setValue('')
       this.setTitle()
       this.props.setSelectValue('Все')
