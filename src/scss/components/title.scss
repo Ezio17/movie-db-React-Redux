@@ -1,0 +1,29 @@
+.d14 h3 {
+  display: table;
+  position: relative;
+  width: auto;
+  margin: 25px auto;
+  letter-spacing: 2px;
+  color: greenyellow;
+  font-size: 24px;
+}
+.d14 h3:before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -25px;
+  width: 30px;
+  height: 20px;
+  border-top: 2px solid #fed57b;
+  border-left: 2px solid #fed57b;
+}
+.d14 h3:after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  right: -25px;
+  width: 30px;
+  height: 20px;
+  border-bottom: 2px solid #fed57b;
+  border-right: 2px solid #fed57b;
+}

@@ -1,0 +1,19 @@
+.recomadation {
+  width: 1400px;
+  margin: auto;
+  margin-top: 50px;
+
+  &__title {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+  }
+}
+
+
+@media all and (max-width: 1430px) {
+  .recomadation {
+    width: 95%;
+  }
+}

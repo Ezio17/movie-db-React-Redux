@@ -1,0 +1,49 @@
+.search-movies {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 15px;
+   margin-bottom: 10px;
+
+  &__image {
+    width: 50px;
+  }
+
+  &__link {
+    color: #76cca2;
+    margin-left: 10px;
+  }
+
+  &__date {
+    margin-right: 10px;
+    color: #b0ba5d;
+  }
+
+  &__all-movies {
+    border-top: 1px solid black;
+    margin-right: 15px;
+    
+    a {
+      text-align: center;
+      color: #76cca2;
+      font-size: 18px;
+
+      &:hover {
+        color: #5dd97e;
+      }
+    }
+  }
+}
+
+.not-found-movies {
+  font-size: 20px;
+  text-align: center;
+}
+
+@media all and (max-width: 570px) {
+  .input-image__search-movies {
+    width: 250px;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}

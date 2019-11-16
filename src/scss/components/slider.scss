@@ -1,0 +1,48 @@
+.slider {
+  position: relative;
+  margin-top: 73px;
+  width: 100%;
+
+  &__block {
+    height: 600px;
+    background-size: cover;
+    background-position: center
+  }
+
+  &__button {
+    width: 200px;
+    height: 40px;
+    margin-top: 550px;
+    margin-left: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: #43c92e;
+    font-size: 22px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+    &:hover {
+      background-color: darken(#43c92e, 5% );
+    }
+  }
+}
+
+.slick-slide:focus {
+  outline: none !important;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 35px !important;
+}
+
+.slick-next {
+  margin-right: 70px;
+}
+
+.slick-prev {
+  margin-left: 47px;
+  z-index: 1;
+}
+

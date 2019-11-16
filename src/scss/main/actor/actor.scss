@@ -1,0 +1,67 @@
+.actor {
+  width: 1400px;
+  margin: 130px auto 0;
+
+  &__main-block {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  &__biography {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    margin-left: 25px;
+  }
+
+  &__image {
+    margin-left: 75px;
+    margin-top: 30px;
+    height: 278px;
+  }
+
+  &__movies {
+    margin-top: 100px;
+  }
+
+  h3 {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 1430px) {
+  .actor {
+    width: 95%;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .actor {
+    &__main-block {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__biography {
+      align-items: center;
+      margin-left: 0;
+    }
+
+    &__image {
+      width: 185px;
+      margin-left: 0;
+    }
+  }
+}
+
+@media all and (max-width: 700px) {
+  .actor {
+   h3 {
+     font-size: 20px;
+   }
+  }
+}

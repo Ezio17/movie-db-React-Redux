@@ -1,0 +1,136 @@
+.header {
+  background-color: #1a1a1a;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1400px;
+  margin: auto;
+}
+
+.logo {
+  width: 60px;
+  padding: 10px 20px;
+}
+
+.input-image {
+  position: relative;
+
+  &__input {
+    padding-left: 15px;
+    width: $width-movies;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 25px;
+    border: 2px solid #a9b8ad;
+  }
+
+  &__search-movies {
+    width: $width-movies;
+    background-color: white;
+    position: absolute;
+    top: 52px;
+    padding-left: 15px;
+
+    &::after {
+      position: absolute;
+      bottom: 100%;
+      border-style: solid;
+      border-width: 0 10px 10px;
+      width: 0;
+      height: 0;
+      right: 2%;
+      border-color: #fff transparent;
+      content: '';
+   }
+  }
+
+  &__image {
+    width: 20px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(0, -53%);
+    cursor: pointer;
+  }
+}
+
+.navigation-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media all and (max-width: 1420px) {
+  .header-container {
+    width: 95%;
+  }
+}
+
+@media all and (max-width: 1070px) {
+  .header {
+    &__navigation {
+      padding: 0 !important;
+    }
+  }
+
+  .navigation-wrapper {
+    flex-direction: column;
+  }
+
+  .input-image {
+    margin-bottom: 20px;
+  }
+
+  .slider {
+    margin-top: 101px !important;
+  }
+}
+
+@media all and (max-width: 570px) {
+  .input-image {
+    margin-bottom: 0;
+    width: 50%;
+
+    &__search-movies {
+    z-index: 10000;
+
+      &::after {
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
+    }
+
+    &__input {
+      width: 100%;
+      padding-left: 5px;
+      margin-left: 10px;
+    }
+
+    &__image {
+      right: -8px;
+    }
+  }
+
+  .navigation-wrapper {
+    width: 70%;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .logo {
+    padding-right: 0;
+  }
+
+  .slider {
+    margin-top: 72px !important;
+  }
+}
+

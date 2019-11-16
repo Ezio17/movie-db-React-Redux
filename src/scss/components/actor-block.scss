@@ -1,0 +1,32 @@
+.actors-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+
+  &__container {
+    margin: 10px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 154px !important;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+  }
+
+  h4 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 150px;
+    cursor: pointer;
+  }
+
+  &__image {
+    width: 154px;
+    height: 235px;
+  }
+}
